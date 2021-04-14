@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OL_statusActivity">
+    <LinearLayout
+        android:id="@+id/meclick"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:layout_height="650dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/myinfo_login_bg"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/touxiang"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/default_icon"></ImageView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="点击登录"
+                        android:textColor="#fff"
+                        android:textSize="23sp">
+                    </TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+            android:background="#E6E6E6"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/course_history_icon">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="播放记录"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/iv_right_arrow">
+
+            </ImageView>
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/shezhi"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="#E6E6E6"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/myinfo_setting_icon">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="设置"
+                android:textSize="25sp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/iv_right_arrow">
+
+            </ImageView>
+        </GridLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:background="#E6E6E6"
+        android:layout_alignParentBottom="true">
+        <GridLayout
+            android:id="@+id/kecheng"
+            android:layout_width="60dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="25dp">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:background="@drawable/main_course_icon">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:text="课程"
+                android:textSize="20sp">
+
+            </TextView>
+        </GridLayout>
+        <GridLayout
+            android:id="@+id/xiti"
+            android:layout_width="60dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="25dp">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:background="@drawable/main_exercises_icon">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:text="习题"
+                android:textSize="20sp">
+
+            </TextView>
+        </GridLayout>
+        <GridLayout
+            android:layout_width="60dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:background="@drawable/main_my_icon_selected">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:text="我"
+                android:textColor="#D83B86D6"
+                android:textSize="20sp">
+
+            </TextView>
+        </GridLayout>
+    </LinearLayout>
+
+</LinearLayout>

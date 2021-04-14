@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#0399FD">
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/iv_back">
+        </ImageView>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="设置"
+            android:textSize="30dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="115dp"
+            android:gravity="center"
+            >
+        </TextView>
+    </GridLayout>
+    <GridLayout
+        android:id="@+id/xiugaimima"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/default_img"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:gravity="center_vertical"
+            android:text="修改密码"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/iv_right_arrow">
+
+        </ImageView>
+    </GridLayout>
+    <GridLayout
+        android:id="@+id/shezhimibao"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/default_img"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:gravity="center_vertical"
+            android:text="设置密保"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/iv_right_arrow">
+
+        </ImageView>
+    </GridLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/default_img"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:gravity="center_vertical"
+            android:text="退出登录"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/iv_right_arrow">
+
+        </ImageView>
+    </GridLayout>
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MeActivity">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#0399FD">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/iv_back">
+        </ImageView>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="个人资料"
+            android:textSize="30dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="75dp"
+            android:gravity="center"
+            >
+        </TextView>
+    </GridLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/login_psw_bg">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="头    像"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:gravity="center">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/login_psw_bg">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="用户名"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:gravity="center">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/login_psw_bg">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="昵    称"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:gravity="center">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/login_psw_bg">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="性    别"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:gravity="center">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/login_psw_bg">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="签    名"
+            android:textSize="24dp"
+            android:textColor="#000"
+            android:gravity="center">
+
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>
